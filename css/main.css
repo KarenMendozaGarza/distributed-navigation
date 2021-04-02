@@ -10,26 +10,36 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   background-color: #fff;
 }
 img {
   width: 2rem;
+  margin-right: .75em;
 }
 
 header {
-  font-size: 1.125rem;
+  padding: 0 1rem;
   background-color: #e2e2e2;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
+nav {
+  font-size: 1.125rem;
+  color: #e2e2e2;
+}
+
 nav ul {
   list-style-type: none;
-  display: inline-flex;
-  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
+nav li {
+  margin: 0 .6em;
 }
 
 nav a {
@@ -46,5 +56,10 @@ header h1 {
 }
 
 header p {
-  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+  color: #fff;
 }
